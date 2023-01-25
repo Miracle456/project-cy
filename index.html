@@ -1,5 +1,6 @@
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Last Kids on Earth</title>
         <style>
             ul{
@@ -14,36 +15,58 @@
             background: rgb(250, 151, 245);
             border-radius: 10px;
         }
-        img{
-            height: 50px;
-            width: 50px;
-            border-radius: 25px;
+        .outer-box a{
+            text-decoration: none;
         }
-        body{
-        margin-right: 10px;
-        margin-left: 10px;
-        margin-bottom: 60000px;
-        padding-top: 50px 50px;
-        border: 5px solid black;
+        img{
+            height: 70px;
+            width: 100px;
+            border-radius: 40px;
         }
         .outer-box{
                 display: flex;
                 flex-direction: row;
                 justify-content: space-between;
+                background-color: rgba(36, 35, 35, 0.72);
         }
-
+        li:hover{
+            background-color: aquamarine;
+            color:rgb(14, 155, 9);
+        }
+        body{
+            background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('https://content.api.news/v3/images/bin/8de96a2ab38a87d4a5e1cf1d981a289e');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .greating {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: white;
+        }
+        .greating h1{
+            font-size: 47px;
+        }
+        .greating h2{
+            font-size: 30px;
+        }
         </style>
     </head>
 
     <body>
         <div class="outer-box">
-        <img src="https://cdn.dribbble.com/userupload/3158902/file/original-7c71bfa677e61dea61bc2acd59158d32.jpg?compress=1&resize=450x338&vertical=top" alt="">
+        <img src="https://gigglebugentertainment.com/wp-content/uploads/2020/01/Last_Kids_Logo.png" alt="">
         <ul>
-            <a href="/home-work/home-work6.html"><li>Home</li></a>
-            <a href="/home-work/home-work5.html"><li>About Us</li></a>
-            <a href="/home-work/home-work4.html"><li>Prizes</li></a>
-            <a href="/home-work/home-work3.html"><li>Contact Us</li></a>
+            <a href="/project/index.html"><li>Home</li></a>
+            <a href="/project/about us.html"><li>About Us</li></a>
+            <a href="/project/contact-us2.html"><li>Contact Us</li></a>
         </ul>
+    </div>
+    <div class="greating">
+        <h1>Welcome, in this website you will learn all about the series The Last Kids On Earth.</h1>
+        <h2>The book seires where even the most terrible situation like, when a giant monster is tracking you down, it's full of fun.</h2>
     </div>
     </body>
 </html>
